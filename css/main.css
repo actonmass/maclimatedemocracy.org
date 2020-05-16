@@ -276,5 +276,5 @@ img {
 
 
 .default main {
-  width: min(1024px, 100vw);
+  width: min(1024px, 90vw);
 }

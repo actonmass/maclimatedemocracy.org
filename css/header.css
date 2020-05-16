@@ -1,8 +1,7 @@
-
 #header-top-banner {
   display: flex;
   margin-bottom: 10px;
-  justify-content: space-evenly
+  justify-content: space-evenly;
 }
 
 .logo {
@@ -25,30 +24,40 @@
   padding: 0;
 }
 
-#mobile-menu-link, #mobile-menu {
+#mobile-menu-link,
+#mobile-menu {
   display: none;
 }
 
 @media (max-width: 600px) {
   #header .button {
-      display: none;
+    display: none;
   }
 
   #header #desktop-menu {
-      display: none;
+    display: none;
   }
 
   #mobile-menu-link {
-      font-size: 2em;
-      display: inherit;
+    margin: 0 1rem;
+    font-size: 2em;
+    display: inherit;
+  }
+
+  .logos {
+    text-align: center;
+  }
+
+  .logo {
+    height: 60px;
   }
 
   #header #mobile-menu li {
-      display: block;
-      margin-top: 0.5em;
+    display: block;
+    margin-top: 0.5em;
   }
 
   #mobile-menu {
-      margin-bottom: 1em;
+    margin-bottom: 1em;
   }
 }

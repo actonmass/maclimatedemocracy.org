@@ -21,18 +21,18 @@
         {% endfor %}
       </ul>
     </nav>
-    <!-- <div class="centered">
-
-          <a href="https://www.facebook.com/act.on.massachusetts" class="social-media-link" target="_blank"><img src="/img/fb.png" alt="Facebook logo"/></a>
-          <a href="https://twitter.com/act_on_mass" class="social-media-link" target="_blank"><img src="/img/twitter.png" alt="Twitter logo"/></a>
-      </div> -->
+    <div class="centered">
+      <!-- <a href="https://www.facebook.com/act.on.massachusetts" class="social-media-link" target="_blank"><img src="/img/fb.png" alt="Facebook logo"/></a> -->
+      <!-- <a href="https://twitter.com/act_on_mass" class="social-media-link" target="_blank"><img src="/img/twitter.png" alt="Twitter logo"/></a> -->
+      <a href="{{site.donate_button_url}}" class="button">Donate</a>
+    </div>
   </div>
   <nav id="mobile-menu">
     <ul class="nav-ul">
       {% for link in site.menu %}
       <li><a href="{{link.page}}">{{link.title}}</a></li>
       {% endfor %}
-      <!-- <li><a href="{{site.donate_button_url}}">Donate</a></li> -->
+      <li><a href="{{site.donate_button_url}}">Donate</a></li>
     </ul>
   </nav>
 </header>

@@ -20,3 +20,4 @@ exclude:
   - .circleci
   - vendor
   - node_modules
+donate_button_url: https://secure.actblue.com/donate/act-on-mass
