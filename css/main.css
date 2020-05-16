@@ -285,3 +285,7 @@ img {
   align-items: center;
   flex-wrap: wrap;
 }
+
+a {
+  color: inherit;
+}
