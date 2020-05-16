@@ -1,0 +1,16 @@
+# This file is *NOT* reloaded automatically when you use 'jekyll serve'.
+# If you change this file, please restart the server process.
+
+title: 100% Renewables & Transparent Leadership
+url: https://maclimatedemocracy.org/
+
+menu:
+  - title: Home
+    page: /
+
+include: ["_pages"]
+exclude:
+  - README.md
+  - .circleci
+  - vendor
+  - node_modules
