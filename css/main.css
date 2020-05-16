@@ -270,3 +270,11 @@ img {
   justify-content: center;
   align-items: center;
 }
+
+
+/* Specific for MAClimateDemocracy.org */
+
+
+.default main {
+  width: min(1024px, 100vw);
+}
