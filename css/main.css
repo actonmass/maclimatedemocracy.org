@@ -269,12 +269,19 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
-
 
 /* Specific for MAClimateDemocracy.org */
 
 
 .default main {
   width: min(1024px, 90vw);
+}
+
+.hbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
 }
