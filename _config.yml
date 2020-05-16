@@ -1,8 +1,14 @@
 # This file is *NOT* reloaded automatically when you use 'jekyll serve'.
 # If you change this file, please restart the server process.
 
+url: https://maclimatedemocracy.org
+
+# The 3 following fields appear when sharing a page on FB or Twitter
 title: 100% Renewables & Transparent Leadership
-url: https://maclimatedemocracy.org/
+description: State Representatives tell us they support 100% renewables, but then the bill dies in committee. How did they actually vote? No one knows!
+social_sharing_img: /img/fb-thumbnail.png
+
+donate_button_url: https://secure.actblue.com/donate/act-on-mass
 
 menu:
   - title: Learn more
@@ -18,4 +24,3 @@ exclude:
   - .circleci
   - vendor
   - node_modules
-donate_button_url: https://secure.actblue.com/donate/act-on-mass
