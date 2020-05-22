@@ -11,6 +11,8 @@ social_sharing_img: /img/fb-thumbnail.png
 donate_button_url: https://secure.actblue.com/donate/act-on-mass
 
 menu:
+  - title: Questions
+    page: /questions
   - title: Learn more
     page: /info
   - title: Sign the pledge
