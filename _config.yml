@@ -26,3 +26,8 @@ exclude:
   - .circleci
   - vendor
   - node_modules
+
+
+collections:
+  forms:
+    output: true
