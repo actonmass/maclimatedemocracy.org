@@ -1,0 +1,6 @@
+---
+district: house-1st-essex
+form_type: transparency
+unique_id: house-1st-essex-transparency
+permalink: /2020bq/house-1st-essex/transparency/
+---

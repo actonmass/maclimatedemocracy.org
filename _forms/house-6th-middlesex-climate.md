@@ -1,0 +1,6 @@
+---
+district: house-6th-middlesex
+form_type: climate
+unique_id: house-6th-middlesex-climate
+permalink: /2020bq/house-6th-middlesex/climate/
+---

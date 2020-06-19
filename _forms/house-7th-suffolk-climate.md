@@ -1,0 +1,6 @@
+---
+district: house-7th-suffolk
+form_type: climate
+unique_id: house-7th-suffolk-climate
+permalink: /2020bq/house-7th-suffolk/climate/
+---
