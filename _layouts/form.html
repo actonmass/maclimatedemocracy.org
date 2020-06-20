@@ -2,12 +2,19 @@
 layout: base
 ---
 
+<div class="default cbox">
+  <main>
+    {%if page.form_type == "climate"%}
 
-{%if page.form_type == "climate"%}
-  Specific HTML for climate pages
-{% else %}
-  Specific HTML for transparency pages
-{% endif %}
+    Specific HTML for climate pages
+
+    {% else %}
+
+    Specific HTML for transparency pages
+
+    {% endif %}
+  </main>
+</div>
 
 <div class="cbox">
   <img class="form-doc" src="/assets/forms/{{page.doc_img}}-1.JPEG" />
