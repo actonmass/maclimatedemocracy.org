@@ -1,7 +1,17 @@
 <div id="unique-id"></div>
 <script>
   window.addEventListener("DOMContentLoaded", function() {
-    var data = [];
+    var data = [
+      {% assign sorted_dis = (site.forms | sort: 'order')  %}
+      {% for form in sorted_dis  %}
+      {% if form.form_type == "climate"%}
+        {
+          label: "{{form.district_desc}}",
+          value: "{{form.district}}",
+        },
+      {% endif %}
+      {% endfor %}
+    ];
     AOM.renderDropdown("unique-id", data);
   });
 </script>
