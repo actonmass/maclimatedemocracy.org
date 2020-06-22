@@ -20,6 +20,7 @@ function DistrictDropdown({ data }) {
         upward={false}
         options={options}
         onChange={(event, data) => {goToForm(data.value)}}
+        selectOnBlur={false}
       />
     </div>
   );
