@@ -11,5 +11,5 @@ title: Success
 
 Now, can you help us spread the word?
 
-*Share [www.MAClimateDemocracy.org](https://www.MAClimateDemocracy.org) with your friends 
-*Donate to help us spread the word. [Click here](https://secure.actblue.com/donate/act-on-mass)
+* Share [www.MAClimateDemocracy.org](https://www.MAClimateDemocracy.org) with your friends
+* Donate to help us spread the word. [Click here](https://secure.actblue.com/donate/act-on-mass)
