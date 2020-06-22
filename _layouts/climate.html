@@ -15,6 +15,8 @@ layout: base
     </section>
     <section class="the-problem">
       <div class="section-container cbox">
+        {% include district-dropdown.html id='district-dropdown-1' %}
+        <br/>
         <div class="theproblem">
           THE PROBLEM
         </div>
@@ -96,7 +98,7 @@ layout: base
         <div class="joinusbysigningt">
           JOIN US BY SIGNING THE APPLICATION FORM
         </div>
-        {% include district-dropdown.html %}
+        {% include district-dropdown.html id='district-dropdown-2' %}
         <div class="ifyouhaveanyques">
           <span class="span1">If you have any questions, email </span
           ><span class="span2"><a href="mailto:BallotQuestion@BetterFutureProject.org">BallotQuestion@BetterFutureProject.org</a></span>

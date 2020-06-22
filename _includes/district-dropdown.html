@@ -1,4 +1,4 @@
-<div id="unique-id"></div>
+<div id="{{include.id}}"></div>
 <script>
   window.addEventListener("DOMContentLoaded", function() {
     var data = [
@@ -12,6 +12,6 @@
       {% endif %}
       {% endfor %}
     ];
-    AOM.renderDropdown("unique-id", data);
+    AOM.renderDropdown("{{include.id}}", data);
   });
 </script>
