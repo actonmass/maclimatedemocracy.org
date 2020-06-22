@@ -1,8 +1,10 @@
 import React from "react";
 import { render } from "react-dom";
 import { Dropdown } from "semantic-ui-react";
+import { useState } from "react";
 
 function DistrictDropdown({ data }) {
+  const [value, setValue] = useState(null)
   const options = data.map(({ label, value }) => {
     return {
       text: label,
@@ -21,6 +23,7 @@ function DistrictDropdown({ data }) {
         options={options}
         onChange={(event, data) => {goToForm(data.value)}}
         selectOnBlur={false}
+        selectOnNavigation={false}
       />
     </div>
   );
