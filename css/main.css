@@ -303,3 +303,7 @@ a {
 .social-share .tweeter-link {
   margin-right: 1.5rem;
 }
+
+.fb-share-button[fb-xfbml-state="rendered"] + .fb-placeholder {
+  display: none;
+}
