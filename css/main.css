@@ -294,3 +294,12 @@ a {
 .form-doc {
   max-width: 700px;
 }
+
+.social-share {
+  justify-content: left;
+  margin-bottom: 1rem;
+}
+
+.social-share .tweeter-link {
+  margin-right: 1.5rem;
+}
