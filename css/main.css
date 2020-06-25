@@ -1,12 +1,27 @@
+html,
+body {
+  height: 100%;
+}
+
 /* General Style */
 
 body {
   font-family: sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
 }
 
 a {
-  color: rgb(0, 56, 98);;
+  color: rgb(0, 56, 98);
 }
 
 blockquote {
@@ -36,13 +51,13 @@ img {
 
 @media (min-width: 601px) {
   .mobile-only {
-      display: none !important;
+    display: none !important;
   }
 }
 
 @media (max-width: 600px) {
   .desktop-only {
-      display: none !important;
+    display: none !important;
   }
 }
 
@@ -129,7 +144,6 @@ img {
   margin: 1% 5% 1% 5%;
 }
 
-
 /* About us page */
 
 .team {
@@ -157,7 +171,7 @@ img {
 
 @media (max-width: 600px) {
   .person {
-      flex-basis: 100%;
+    flex-basis: 100%;
   }
 }
 
@@ -176,7 +190,8 @@ img {
   text-align: center;
 }
 
-.centered-image > img, .centered-image > a:first-child {
+.centered-image > img,
+.centered-image > a:first-child {
   margin: 0 auto;
   display: block;
 }
@@ -189,7 +204,8 @@ img {
   align-items: center;
 }
 
-.centered .button {  /* When several buttons are on a centered block, give them the same length */
+.centered .button {
+  /* When several buttons are on a centered block, give them the same length */
   flex-grow: 1;
 }
 
@@ -235,7 +251,8 @@ img {
   padding-left: 15px;
 }
 
-.post-preview-image + .post-preview-text { /* If there is an image, reduce size of text block */
+.post-preview-image + .post-preview-text {
+  /* If there is an image, reduce size of text block */
   flex-basis: 60%;
   flex-grow: 1;
 }
@@ -274,8 +291,11 @@ img {
 
 /* Specific for MAClimateDemocracy.org */
 
+main.default {
+  justify-content: unset;
+}
 
-.default main {
+main.default .content {
   width: min(1024px, 90vw);
   padding-bottom: 40px;
 }
